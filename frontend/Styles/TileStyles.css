@@ -1,0 +1,24 @@
+.space-weather-tile {
+  padding: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+  width: 250px;
+  text-align: center;
+}
+
+.kp-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.kp-alert {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.tile-meta {
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 0.5rem;
+}

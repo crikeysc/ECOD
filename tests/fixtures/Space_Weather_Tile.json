@@ -1,0 +1,33 @@
+{
+  "tile_id": "space_weather_tile",
+  "title": "Space Weather: Kp Index",
+  "timestamp_utc": "2025-10-20T06:00:00Z",
+  "data": {
+    "kp_index": 5.3,
+    "kp_alert": "active",
+    "source": "NOAA SWPC",
+    "source_timestamp": "2025-10-20T05:59:00Z"
+  },
+  "visual": {
+    "type": "gauge",
+    "min": 0,
+    "max": 9,
+    "thresholds": {
+      "quiet": [0, 3.9],
+      "active": [4.0, 5.9],
+      "storm": [6.0, 7.9],
+      "severe storm": [8.0, 9.0]
+    },
+    "color_map": {
+      "quiet": "#4CAF50",
+      "active": "#FFC107",
+      "storm": "#FF5722",
+      "severe storm": "#D32F2F"
+    }
+  },
+  "meta": {
+    "updated_by": "Space_Weather_Enricher",
+    "ttl_seconds": 3600,
+    "tags": ["space_weather", "kp_index", "geomagnetic", "alert"]
+  }
+}
